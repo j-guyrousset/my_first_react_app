@@ -30,12 +30,6 @@ const List = () => {
         {columns.map(column => <Column key={column.id} title={column.title} icon={column.icon} />)}
       </section>
 
-
-      // <section className={styles.columns}>
-      //   <Column icon="book" title="Books" />
-      //   <Column icon="film" title="Movies" />
-      //   <Column icon="gamepad" title="Games" />
-      // </section>
     </div>
   );
 
